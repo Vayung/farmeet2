@@ -1,0 +1,33 @@
+# Dependencies
+/node_modules/
+/backend/node_modules/
+
+# Backend environment secrets (keep .env.example)
+/backend/.env
+/backend/.env.*
+!/backend/.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+
+# Local environment files
+/.env
+/.env.*
+!/.env.example
+
+# Logs and runtime output
+*.log
+/backend/logs/
+/backend/coverage/
+
+# Build output
+/backend/dist/
+/backend/build/
+
+# Local editor and operating-system files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
